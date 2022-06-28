@@ -8,4 +8,3 @@ export XDG_STATE_HOME="$HOME/.local/state"
 # ZSH
 
 export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
-. "/Users/morgangreff/.local/share/cargo/env"
