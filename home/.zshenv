@@ -6,5 +6,6 @@ export XDG_RUNTIME_DIR="/tmp"
 export XDG_STATE_HOME="$HOME/.local/state"
 
 # ZSH
+
 export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
-. "/Users/dolevh/.local/share/cargo/env"
+. "/Users/morgangreff/.local/share/cargo/env"

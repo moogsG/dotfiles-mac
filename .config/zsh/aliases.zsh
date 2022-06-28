@@ -86,7 +86,7 @@ function cd_pkg() {
 }
 
 function cd_repo() {
-  repos=$(find ~/code/wix ~/code/personal ~/code/playground -type d  -mindepth 1 -maxdepth 1 | sed "s#/Users/dolevh/code/##" | grep -v "DS_Store")
+  repos=$(find ~/code/wix ~/code/personal ~/code/playground -type d  -mindepth 1 -maxdepth 1 | sed "s#/Users/morgangreff/code/##" | grep -v "DS_Store")
 
   selected=$(echo ${repos} | fzf)
   

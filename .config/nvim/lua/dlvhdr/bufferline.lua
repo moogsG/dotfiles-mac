@@ -7,7 +7,7 @@ require("bufferline").setup({
       return true
     end,
     name_formatter = function(buf)
-      return vim.fn.fnamemodify(buf.name, ":p:gs?Users/dolevh/code/wix/??:gs?^/??:gs?Users/dolevh?~?")
+      return vim.fn.fnamemodify(buf.name, ":p:gs?Users/morgangreff/code/wix/??:gs?^/??:gs?Users/morgangreff?~?")
     end,
   },
 })
